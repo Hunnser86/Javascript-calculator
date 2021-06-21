@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" defer></script>
+</head>
+<body>
+  <div class="calculator-grid"><!--A div to contain the structure of the calculator-->
+    <div class="output"><!--A div to display the numbers-->
+      <div data-previous-operand class="previous-operand"></div><!--A small div to display the first operand that is input -->
+      <div data-current-operand class="current-operand"></div><!--A div to display the current operand being input-->
+    </div>
+    <!--Here is where the buttons are created-->
+    <button data-all-clear class="double-width">AC</button><!--The double-width class is used to create larger buttons. "DOUBLE WIDTH!!"-->
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="double-width">=</button>
+  </div>
+</body>
+</html>
+
+<!--That is all the HTML needed for this project.  Simple, but effective-->
